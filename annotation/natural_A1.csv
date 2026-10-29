@@ -1,0 +1,301 @@
+item,label,comment
+N000,NO CLAIM,General definition of spoofing
+N001,UNVERIFIABLE,"tsz medium; ""relatively small compared to other flows"" = comparison not established"
+N002,UNVERIFIABLE,"ICMP present, exact; intent (overwhelm, fragmented) not verifiable"
+N003,UNVERIFIABLE,"tsz high, exact; ""unusually"", ""could indicate malicious"" = interpretation"
+N004,SUPPORTED,Class Mirai = decision
+N005,SUPPORTED,"avg 60 low, exact"
+N006,UNVERIFIABLE,"High bands exact; ""typical of legitimate communication"" = interpretation"
+N007,CONTRADICTED,"Invented TCP port 631; proto=47, tcp=0"
+N008,SUPPORTED,"header length 28.8 high, exact"
+N009,UNVERIFIABLE,Intent (gather information)
+N010,SUPPORTED,Class Spoofing = decision
+N011,CONTRADICTED,"""TCP sequence numbers"" invented"
+N012,CONTRADICTED,"rate medium, not very high"
+N013,UNVERIFIABLE,"hdr high, exact; ""can indicate larger packets"" = interpretation"
+N014,SUPPORTED,"proto 6 medium, exact"
+N015,SUPPORTED,"max 2922 high, exact"
+N016,SUPPORTED,"IAT exact, low"
+N017,UNVERIFIABLE,"Class DDoS ok; ""overwhelming network traffic"" = consequence"
+N018,CONTRADICTED,"Everything high: proto, num, min, rate, etc. false"
+N019,UNVERIFIABLE,"UDP=1 and SYN=0 exact; ""attacker"", suspicion = interpretation"
+N020,UNVERIFIABLE,"num medium, exact; ""expected in legitimate"" = interpretation"
+N021,CONTRADICTED,"number medium, not low"
+N022,CONTRADICTED,"https=0.7 (high), HTTPS present"
+N023,UNVERIFIABLE,Attacker's intent
+N024,CONTRADICTED,"number=100 medium, not ""high number"""
+N025,UNVERIFIABLE,"SYN count high, exact; attacker/botnet = intent"
+N026,SUPPORTED,"max 592 high, exact"
+N027,CONTRADICTED,"SYN/FIN flags = 0, tcp=0"
+N028,CONTRADICTED,"max 182 is medium, not high"
+N029,UNVERIFIABLE,Non-authentic IP = not established by the flow
+N030,CONTRADICTED,"rate medium, not high"
+N031,UNVERIFIABLE,"hdr low, exact, std≈0; ""not encrypted"", ""stealthy"" = interpretation"
+N032,SUPPORTED,"tot sum 59200 high, exact"
+N033,UNVERIFIABLE,"Class ok; ""typical of Mirai pattern"" not established"
+N034,UNVERIFIABLE,"min medium, exact; ""not a high-volume attack"" = interpretation"
+N035,CONTRADICTED,Invented TCP port 65432
+N036,SUPPORTED,"max 317 medium, exact"
+N037,SUPPORTED,"tsz and avg 1500 high, exact"
+N038,SUPPORTED,"number 10 medium, exact"
+N039,UNVERIFIABLE,"""meets criteria for normal traffic"" not established"
+N040,CONTRADICTED,Invented TCP port 631
+N041,CONTRADICTED,number medium; invented threshold of 100 pps
+N042,UNVERIFIABLE,"Intent (gather information, attackers)"
+N043,UNVERIFIABLE,"iat high, exact; ""malicious purpose"" = interpretation"
+N044,UNVERIFIABLE,"tsz high, exact; ""exceptionally"", ""single source"" = interpretation"
+N045,CONTRADICTED,"number medium, not low"
+N046,SUPPORTED,"max 554 medium, exact"
+N047,CONTRADICTED,"rate medium, not very high"
+N048,UNVERIFIABLE,"High bands exact; ""typical of legitimate"" = interpretation"
+N049,CONTRADICTED,"number medium, not high"
+N050,UNVERIFIABLE,"SYN high, exact; attacker's intent"
+N051,SUPPORTED,"proto 17 medium, exact"
+N052,UNVERIFIABLE,"""meets criteria for normal traffic"" not established"
+N053,UNVERIFIABLE,"max 703 high, exact; ""oversized or malformed"" = interpretation"
+N054,CONTRADICTED,"number medium, not high"
+N055,CONTRADICTED,"tot sum medium, not high"
+N056,SUPPORTED,"number 100 medium, exact"
+N057,CONTRADICTED,FIN flag = 0
+N058,CONTRADICTED,"number medium, not high"
+N059,UNVERIFIABLE,"""overall moderate"", ""not indicative of threat"" = interpretation"
+N060,CONTRADICTED,"tot size 88.5 medium, not high"
+N061,CONTRADICTED,"tot size low, not large"
+N062,CONTRADICTED,syn/fin/rst count and syn flag = 0 (medium)
+N063,UNVERIFIABLE,"tsz medium, exact; ""typical data volume"" = interpretation"
+N064,CONTRADICTED,Invented MB unit
+N065,UNVERIFIABLE,Spoofed IP not established by the flow
+N066,UNVERIFIABLE,"ack flag high, exact; ""misconfiguration"", ""connection establishment"" = interpretation"
+N067,UNVERIFIABLE,"hdr low, exact, variance=0; ""minimal overhead"" = interpretation (truncated sentence)"
+N068,CONTRADICTED,"tot sum medium, not low"
+N069,SUPPORTED,"avg 60 low, exact"
+N070,CONTRADICTED,avg low (not medium); invented MB unit
+N071,SUPPORTED,"tsz 554 high, exact"
+N072,CONTRADICTED,"tot sum medium, not low"
+N073,SUPPORTED,"proto 6 medium, exact"
+N074,CONTRADICTED,SYN flag = 0 (medium)
+N075,CONTRADICTED,fin count and rst count = 0 (medium)
+N076,SUPPORTED,"tsz 926.5 high, exact"
+N077,SUPPORTED,"tsz, avg, max, ack flag/tcp, TTL high, exact"
+N078,CONTRADICTED,"Packet sizes high, not medium/low"
+N079,CONTRADICTED,"number medium, not high"
+N080,SUPPORTED,"proto 6 medium, exact"
+N081,SUPPORTED,"proto 6 medium, exact"
+N082,UNVERIFIABLE,"Class ok; ""typical of Mirai pattern"" not established"
+N083,SUPPORTED,"proto 6 medium, exact"
+N084,CONTRADICTED,"rate and IAT medium, not high"
+N085,UNVERIFIABLE,Attackers' intent
+N086,UNVERIFIABLE,Attackers' intent
+N087,SUPPORTED,"proto 17 medium, exact"
+N088,CONTRADICTED,"No SYN (syn=0, tcp=0)"
+N089,UNVERIFIABLE,"SYN count high, exact; ""malicious intent"""
+N090,SUPPORTED,"avg 60.22 low, exact"
+N091,UNVERIFIABLE,"TCP exact; ""typical protocols like HTTP/HTTPS"" = interpretation"
+N092,SUPPORTED,"proto 17 medium, exact"
+N093,CONTRADICTED,"Invented ""seconds"" unit for rate"
+N094,CONTRADICTED,"icmp=0 and udp=0.1 medium, not high"
+N095,UNVERIFIABLE,"""common characteristic of Mirai"" = interpretation"
+N096,UNVERIFIABLE,"psh high, exact; truncated sentence (""more than half of"" not established)"
+N097,NO CLAIM,General definition of spoofing
+N098,SUPPORTED,"min 60 medium, exact"
+N099,SUPPORTED,"IAT exact, low"
+N100,SUPPORTED,"tot sum 899 low, exact"
+N101,UNVERIFIABLE,"rate low, exact; ""minimal disruption"" = consequence"
+N102,UNVERIFIABLE,"tsz medium; ""relatively small compared to other flows"" not established"
+N103,CONTRADICTED,"0.00002888 is the IAT, not an ""initial connection rate"""
+N104,CONTRADICTED,No SYN (syn=0)
+N105,SUPPORTED,Normal class = BENIGN decision
+N106,UNVERIFIABLE,"number medium, exact; ""legitimate traffic"" = interpretation"
+N107,UNVERIFIABLE,"tsz high, exact; ""unusually"", ""could indicate"" = interpretation"
+N108,UNVERIFIABLE,"TCP exact; ""malicious attempt"" = intent"
+N109,SUPPORTED,Normal class = BENIGN decision
+N110,UNVERIFIABLE,"""criteria for benign behavior"" not established"
+N111,UNVERIFIABLE,ICMP/HTTPS zero; botnet targeting = intent
+N112,CONTRADICTED,"std high, not low"
+N113,CONTRADICTED,"rate 3845 medium, not high"
+N114,CONTRADICTED,"max 60 low, not high"
+N115,UNVERIFIABLE,"hdr high, exact; ""can indicate … HTTPS"" = interpretation"
+N116,CONTRADICTED,"number medium, not high"
+N117,CONTRADICTED,"avg 66 medium (not low); tot sum 660, not 66"
+N118,UNVERIFIABLE,Attacker's intent
+N119,UNVERIFIABLE,"rate high, exact; ""automated and coordinated"" = interpretation"
+N120,CONTRADICTED,"max 60 low, not high"
+N121,SUPPORTED,"min 60 medium, exact"
+N122,CONTRADICTED,"Packet sizes low, not large"
+N123,CONTRADICTED,"rate low, not high"
+N124,CONTRADICTED,Invented MB unit
+N125,CONTRADICTED,"tot sum 642 low, not medium"
+N126,CONTRADICTED,"tot sum medium, not high"
+N127,CONTRADICTED,tcp=0.01 low; no SYN flood / multiple SYN
+N128,SUPPORTED,"number 10 medium, exact"
+N129,SUPPORTED,Normal class = BENIGN decision
+N130,UNVERIFIABLE,"No SYN, exact; ""normal"", ""no anomalies"" = interpretation"
+N131,SUPPORTED,"max 60 low, exact"
+N132,UNVERIFIABLE,"ICMP zero; ""reconnaissance phase"" = interpretation"
+N133,SUPPORTED,"icmp 0.04 high, exact (truncated sentence)"
+N134,UNVERIFIABLE,"number medium, exact; ""not high-volume attack"" = interpretation"
+N135,CONTRADICTED,"""Initial connection rate variance"" invented (it is variance)"
+N136,CONTRADICTED,"""Initial connection rate variance"" invented (it is variance)"
+N137,SUPPORTED,"max 66 low, exact"
+N138,CONTRADICTED,"max 317 medium, not high"
+N139,UNVERIFIABLE,Spoofed IP not established by the flow
+N140,CONTRADICTED,"proto, number, min, rate high false; invented units"
+N141,CONTRADICTED,Invented Recon reference average (453.1)
+N142,CONTRADICTED,"tot size and avg medium, not high"
+N143,UNVERIFIABLE,"tsz high, exact; ""exceptionally large"" = interpretation"
+N144,CONTRADICTED,"Packet sizes high, not small"
+N145,UNVERIFIABLE,"Certainty (""clearly"") / consequence"
+N146,CONTRADICTED,"avg 60 low, not high/medium"
+N147,CONTRADICTED,"Packet sizes high, not medium/low"
+N148,CONTRADICTED,Invented MB unit
+N149,UNVERIFIABLE,"hdr high, exact; ""can indicate"" = interpretation"
+N150,UNVERIFIABLE,"tsz medium, exact; ""typical data volume"" = interpretation"
+N151,CONTRADICTED,"tot sum 2520 low, not medium"
+N152,CONTRADICTED,"SYN flag = 0, tcp=0 (ICMP)"
+N153,UNVERIFIABLE,Spoofed IP not established by the flow
+N154,CONTRADICTED,"tot size medium, not large; rate low; icmp/udp not high"
+N155,UNVERIFIABLE,"Bands exact; ""typical of Mirai"", ""connections vs throughput"" not established"
+N156,CONTRADICTED,"""packet loss rate"" invented (0.01464 = IAT)"
+N157,UNVERIFIABLE,"avg and tot sum high, exact; ""flooding networks"" = interpretation"
+N158,UNVERIFIABLE,Spoofed IP not established by the flow
+N159,CONTRADICTED,"tot size and avg medium, not low"
+N160,SUPPORTED,"rate 473.8 low, exact"
+N161,CONTRADICTED,"0.00002073 is the IAT, not an ""initial connection rate"""
+N162,UNVERIFIABLE,"https=0 exact; ports absent from the flow; ""standard HTTP"" = interpretation"
+N163,UNVERIFIABLE,"TCP and SYN high, exact; attackers/exhaustion = intent"
+N164,CONTRADICTED,TTL high (not low); sizes medium
+N165,CONTRADICTED,"number medium, not high"
+N166,UNVERIFIABLE,"No SYN, exact; ""normal"", ""no anomalies"" = interpretation"
+N167,CONTRADICTED,hdr=0 low (not medium); TTL medium (not low)
+N168,CONTRADICTED,No SYN (syn=0)
+N169,SUPPORTED,"avg 2093 high, exact"
+N170,SUPPORTED,"tot sum 600 low, exact"
+N171,CONTRADICTED,"number, min, rate, icmp, https, etc. not high"
+N172,CONTRADICTED,"tcp=0, no SYN (UDP)"
+N173,UNVERIFIABLE,Spoofed IP not established by the flow
+N174,CONTRADICTED,"avg 60 low, not high/medium"
+N175,CONTRADICTED,"iat and std high, not low/medium"
+N176,SUPPORTED,"number 10 medium, exact"
+N177,CONTRADICTED,"number medium, not high"
+N178,UNVERIFIABLE,"tsz high, exact; ""Mirai consume bandwidth"" = interpretation"
+N179,UNVERIFIABLE,"Class ok; ""typical of Mirai pattern"" not established"
+N180,UNVERIFIABLE,Spoofed IP not established by the flow
+N181,NO CLAIM,General remark about vigilance
+N182,UNVERIFIABLE,"tcp=1 exact; ""data transfer rates"", suspicion = interpretation"
+N183,NO CLAIM,General remark about the usefulness of classification
+N184,CONTRADICTED,"""Initial connection rate variance"" invented (it is variance)"
+N185,UNVERIFIABLE,"Bands exact; ""high-risk"" = interpretation"
+N186,UNVERIFIABLE,"avg and tot sum high, exact; ""without pauses"" = interpretation"
+N187,UNVERIFIABLE,"min medium, exact; ""not high-volume attack"" = interpretation"
+N188,SUPPORTED,"rate 112800 high, exact"
+N189,UNVERIFIABLE,Attacker's intent
+N190,SUPPORTED,Class Spoofing = decision
+N191,UNVERIFIABLE,"Class ok; ""strongly support"" = certainty"
+N192,SUPPORTED,"hdr 20 medium, exact"
+N193,SUPPORTED,"hdr 8 low, exact"
+N194,CONTRADICTED,"number medium, not high"
+N195,SUPPORTED,"tsz 99.1 medium, exact"
+N196,SUPPORTED,"max 554 medium, exact"
+N197,UNVERIFIABLE,Spoofed IP not established by the flow
+N198,UNVERIFIABLE,"""known IP address"" not established by the flow"
+N199,UNVERIFIABLE,"Class ok; ""indicative of DDoS"" not established"
+N200,CONTRADICTED,"rate 125.8 low, not medium"
+N201,SUPPORTED,"tot size 60 low, exact"
+N202,UNVERIFIABLE,"""known IP address"" not established by the flow"
+N203,CONTRADICTED,"tot size 66.36 medium, not high"
+N204,CONTRADICTED,"number, rate, icmp, udp, syn, fin… not high"
+N205,SUPPORTED,"rate 16060 high, exact"
+N206,SUPPORTED,"number 100 medium, exact"
+N207,CONTRADICTED,"""over 100 connections"" invented (number=100 packets)"
+N208,SUPPORTED,"TTL high, exact (truncated sentence)"
+N209,UNVERIFIABLE,"""meets criteria for normal traffic"" not established"
+N210,SUPPORTED,std ≈ -0.00000000 exact (truncated sentence)
+N211,UNVERIFIABLE,"High bands exact; ""typical of legitimate"" = interpretation"
+N212,UNVERIFIABLE,"TCP exact; ""typical protocols like HTTP/HTTPS"" = interpretation"
+N213,CONTRADICTED,FIN flag = 0 (not high)
+N214,UNVERIFIABLE,Spoofed IP not established by the flow
+N215,CONTRADICTED,"SYN flag = 0, not high"
+N216,UNVERIFIABLE,"avg medium, exact; ""consistent traffic behavior"" = interpretation"
+N217,CONTRADICTED,"max 317 medium, not high"
+N218,SUPPORTED,"proto 6 medium, exact"
+N219,SUPPORTED,Normal class = BENIGN decision
+N220,SUPPORTED,"tot sum 6000 medium, exact"
+N221,NO CLAIM,Header / transition without content
+N222,UNVERIFIABLE,"""meets criteria for normal traffic"" not established"
+N223,UNVERIFIABLE,"hdr and TTL high, exact; fragmentation / TTL exhaustion = interpretation"
+N224,UNVERIFIABLE,Spoofed IP not established by the flow
+N225,UNVERIFIABLE,"ICMP zero; ""misrouting or tampering"" = interpretation"
+N226,UNVERIFIABLE,"rate 28190 and SYN exact; ""attempt to overwhelm"" = intent"
+N227,CONTRADICTED,"udp=1 = 100%, not 1%"
+N228,UNVERIFIABLE,"UDP high, exact; exploitation / DoS = intent"
+N229,UNVERIFIABLE,"TCP present; ""expected behaviors"" = interpretation"
+N230,NO CLAIM,Header / transition without content
+N231,UNVERIFIABLE,Intent (exhaust resources)
+N232,CONTRADICTED,"min 60 medium, not low"
+N233,UNVERIFIABLE,Spoofed IP not established by the flow
+N234,UNVERIFIABLE,"""long distance"", reconnaissance = interpretation"
+N235,SUPPORTED,"max 578 medium, exact"
+N236,CONTRADICTED,"number medium, not high"
+N237,CONTRADICTED,"avg 182 medium, not high"
+N238,CONTRADICTED,"number and tot size medium, not high"
+N239,CONTRADICTED,"tot size 64 medium, not low"
+N240,SUPPORTED,"proto medium, exact, 6 = TCP"
+N241,UNVERIFIABLE,"Bands exact; ""typical of legitimate"" = interpretation"
+N242,UNVERIFIABLE,"avg/tot sum high, exact; attacker, long period = interpretation"
+N243,SUPPORTED,"rate 713.8 medium, exact"
+N244,SUPPORTED,"proto 17 medium, exact"
+N245,CONTRADICTED,"Sizes medium and rate low, not high"
+N246,SUPPORTED,"min 66 medium, exact"
+N247,UNVERIFIABLE,Spoofed IP not established by the flow
+N248,CONTRADICTED,"Invented ""seconds"" unit for rate"
+N249,UNVERIFIABLE,"""known IP address"" not established by the flow"
+N250,UNVERIFIABLE,Comparison with a Recon average that is not provided (truncated sentence)
+N251,SUPPORTED,"rate 100 low, exact"
+N252,SUPPORTED,"tot size 66 medium, exact"
+N253,CONTRADICTED,"max 94 medium, not high"
+N254,UNVERIFIABLE,"TCP and SYN high, exact; attackers = intent"
+N255,CONTRADICTED,"number medium; invented ""seconds"" unit for header length"
+N256,SUPPORTED,"proto 17 medium, exact"
+N257,CONTRADICTED,"rate 68.79 low, not high"
+N258,UNVERIFIABLE,"Medium bands exact; ""without anomalies"" = interpretation"
+N259,UNVERIFIABLE,"https=0 exact; ports absent; ""standard HTTP"" = interpretation"
+N260,SUPPORTED,Class Spoofing = decision
+N261,CONTRADICTED,"number medium, not high"
+N262,CONTRADICTED,"""these high values"": tot size, avg, max, number are medium"
+N263,SUPPORTED,"variance and std high, exact (truncated sentence)"
+N264,SUPPORTED,"proto 47 high, exact"
+N265,SUPPORTED,"tot sum 18040 high, exact"
+N266,CONTRADICTED,No SYN (syn=0)
+N267,UNVERIFIABLE,"High bands exact; ""typical of legitimate"" = interpretation"
+N268,SUPPORTED,"tot size 60 low, exact"
+N269,CONTRADICTED,"avg, min, number, proto, syn count… not low"
+N270,CONTRADICTED,"rate 597.8 medium, not high"
+N271,CONTRADICTED,"proto 17 = UDP, not TCP"
+N272,CONTRADICTED,Invented MB unit
+N273,SUPPORTED,"number 10 medium, exact"
+N274,CONTRADICTED,"""high number of protocol types"", HTTP invented; number medium"
+N275,CONTRADICTED,"avg 60 low, not high/medium"
+N276,UNVERIFIABLE,"""criteria for benign behavior"" not established"
+N277,UNVERIFIABLE,"High bands exact; ""typical of legitimate"" = interpretation"
+N278,SUPPORTED,Class DDoS = decision
+N279,CONTRADICTED,SYN and FIN = 0
+N280,CONTRADICTED,"header length medium, not high"
+N281,CONTRADICTED,"SYN/FIN = 0, tcp=0"
+N282,CONTRADICTED,Invented MB unit
+N283,SUPPORTED,Class Spoofing = decision
+N284,UNVERIFIABLE,"tsz high, exact; ""Mirai consume bandwidth"" = interpretation"
+N285,UNVERIFIABLE,Spoofed IP not established by the flow
+N286,SUPPORTED,"tot size 554 high, exact"
+N287,UNVERIFIABLE,"""typical of reconnaissance"" not established"
+N288,SUPPORTED,"min 60 medium, exact"
+N289,SUPPORTED,"number 100 medium, exact"
+N290,CONTRADICTED,Invented reference average (854.1)
+N291,CONTRADICTED,"udp=1 = 100%, not ""1 out of 100"""
+N292,SUPPORTED,"min 60 medium, exact"
+N293,UNVERIFIABLE,Attacker's intent
+N294,CONTRADICTED,"0.00002166 is the IAT, not an ""initial connection time"""
+N295,UNVERIFIABLE,"tsz high, exact; ""Mirai consume bandwidth"" = interpretation"
+N296,UNVERIFIABLE,"Medium bands exact; ""without anomalies"" = interpretation"
+N297,SUPPORTED,"max 60 low, exact"
+N298,CONTRADICTED,"tcp=0, no SYN (UDP)"
+N299,SUPPORTED,Class Mirai = decision

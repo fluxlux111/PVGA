@@ -1,0 +1,201 @@
+item,wrong_fact,overreach,useful,comment
+I000,1,1,1,"tot size/avg 60.68 called ""larger/higher"" although low; ""attempting to overwhelm"""
+I001,1,1,1,"High SYN (syn=0), sizes ""low"" (medium); ""attempting to exploit"""
+I002,0,1,2,"Only fact: tot sum 1081; rest = generic definition + ""gain access to sensitive information"""
+I003,1,0,1,60.1 and max 70 said to be larger than other flows (low)
+I004,0,0,3,Values and bands correct
+I005,0,0,2,554 larger than others (high) correct; rest generic
+I006,0,0,1,Empty
+I007,0,1,2,"578 high correct; ""attacker is using a larger payload"""
+I008,0,1,2,"Low values/bands correct; ""attacker was trying to minimize the impact"""
+I009,0,0,3,header length high and iat correct
+I010,1,1,1,"TCP/SYN packets although udp=0.98, syn=0; ""attacker is attempting to overwhelm"""
+I011,1,0,2,Protocol 47 (GRE) presented as HTTP or FTP
+I012,1,1,2,"tot sum presented as a packet count (number=10); ""aimed at gathering information"""
+I013,0,0,2,"Protocol 6 = TCP correct, a single fact"
+I014,1,0,2,"""high rate"" (low); ""low ACK flag number"" (high)"
+I015,1,0,2,tot sum presented as a packet count; header length 32 correct
+I016,0,0,3,"Values correct; ""initial connection rate"" = paraphrase of rate"
+I017,0,0,3,Values and bands correct
+I018,1,0,1,Max said low/medium although high
+I019,1,1,1,"Size 60 ""relatively large"" (low); ""attempting to overwhelm"""
+I020,0,1,2,"Bands correct; ""likely gathering information"", speculative packet loss"
+I021,0,0,1,Restates the decision only
+I022,0,0,3,"max 66, header length 32, rate 473.8 correct"
+I023,0,0,3,Values and bands correct
+I024,0,1,2,"Values correct; ""requests from multiple sources without responses"" not establishable"
+I025,1,0,2,Presence of SYN (syn=0)
+I026,1,0,2,"""UDP 1 out of 100"": udp=1 means 100%"
+I027,1,1,2,"""over a long period"" absent from record; ""ongoing operations by the attacker"""
+I028,0,0,1,Empty
+I029,0,0,1,Empty
+I030,0,0,3,Correct copy of the record
+I031,1,0,1,"tot size 1288 ""relatively small"" (high); tot sum ""moderate"" (high)"
+I032,1,1,1,"Size ""large"" (medium), ICMP/UDP ""high"" (medium); ""attempting to probe"""
+I033,1,0,2,max 74 said medium (low)
+I034,1,1,1,"TCP/SYN although udp=1, syn=0; ""malicious intent"", ""attackers overwhelm"""
+I035,0,0,3,Values and bands correct
+I036,0,0,3,Values and bands correct
+I037,0,1,2,"Bands correct; ""aimed at consuming bandwidth"""
+I038,1,0,1,"""high number of packets"" (medium), max and header length said medium (low)"
+I039,1,0,2,"tot size low (medium), tot sum medium (low), SYN ""high"" (0)"
+I040,0,0,1,Empty
+I041,1,1,1,"Everything said ""high""; invented source IP; ""aimed at overwhelming"""
+I042,1,0,2,Invented units MB and MB/s; bands correct
+I043,1,1,2,"IAT said both high and low, unit ms; ""spoofed IP attempting to evade detection"""
+I044,0,0,2,"header length 8 low correct, a single fact"
+I045,0,0,3,Correct copy of the record
+I046,0,0,3,Correct copy of the record
+I047,0,0,3,Values and bands correct
+I048,0,0,3,Values and bands correct
+I049,1,0,2,"tot sum = packet count; rate 100 ""moderate"" (low)"
+I050,0,0,3,Correct copy of the record
+I051,0,0,3,Values and bands correct
+I052,1,0,2,"SYN ""high"" (syn=0)"
+I053,1,1,1,"tot sum and rate said high (low); ""encrypted or obfuscated"", ""large-scale attack"""
+I054,0,0,2,"tot size, avg, max high correct but without values"
+I055,1,0,1,"Invented spoofed IP; protocol 17, number, header length said high (medium)"
+I056,1,0,2,"header length 24.8 ""lower"" (high)"
+I057,1,0,1,SYN without ACK although syn=0 and ack=1
+I058,1,1,2,"rate 97.86 ""quite high"" (low); ""aimed at quickly assessing targets"""
+I059,1,0,2,Protocol 47 presented as HTTP or FTP
+I060,0,0,3,Correct copy of the record
+I061,1,0,2,tot sum and rate said both high and low
+I062,0,0,1,Empty
+I063,1,1,1,"High SYN (syn=0); ""attempting to establish connections from a spoofed IP"""
+I064,0,0,3,Correct copy of the record
+I065,1,0,2,"Invented TCP port 631; variance ""low"" (medium)"
+I066,0,1,2,"Bands correct; ""aimed at consuming bandwidth"", ""attempts to overwhelm"""
+I067,0,0,3,Values and bands correct
+I068,1,1,2,"rate 3941 ""unusually high"" (medium); high FIN (0); ""attacker"""
+I069,1,0,1,"tot size low (medium), tot sum medium (low), SYN without ACK"
+I070,0,1,2,"Bands correct; ""attacker was trying to minimize the impact"""
+I071,0,1,2,"Bands correct; ""resource exhaustion"" = consequence"
+I072,0,0,2,578 high correct; rest generic
+I073,0,0,3,Correct copy of the record
+I074,1,1,2,"fin ""high"" (0); ICMP ""low"" (medium); ""scan pattern designed to"""
+I075,1,0,2,"""small but frequent transmissions"" although min 554 high"
+I076,0,0,3,Values and bands correct
+I077,0,0,1,Generic definition only
+I078,0,0,3,Correct copy of the record
+I079,0,0,3,Correct copy of the record
+I080,1,1,2,"iat 0.0207 ""relatively low"" in ms (high); ""aimed at gathering information"""
+I081,1,0,2,Presence of SYN (syn=0)
+I082,0,0,3,Values and bands correct
+I083,1,0,2,Invented ports TCP 23 / UDP 654
+I084,1,1,1,"tot sum and rate said high (low); ""encrypted or obfuscated"", ""large-scale attack"""
+I085,1,0,1,"avg, tot sum, max, min, number said high (low/medium)"
+I086,1,1,1,"Size 60 ""relatively large"" (low); ""attempting to overwhelm"""
+I087,1,1,2,"High SYN (syn=0); ""attempting to establish connections from a spoofed IP"""
+I088,0,0,3,Correct copy of the record
+I089,0,0,3,Values and bands correct
+I090,0,0,1,Restates the decision only
+I091,0,0,2,"avg low and protocol 17 medium correct, confusing wording"
+I092,0,0,3,"tot size, avg high and tot sum 12880 correct"
+I093,0,0,3,Values and bands correct
+I094,0,0,2,High sizes correct but without values
+I095,0,1,2,"Bands correct; ""attempt to overload resources or evade detection"""
+I096,1,0,1,"tot size, avg, tot sum said ""lower"" (high)"
+I097,1,1,2,"Max said ""unusually high"" (low); ""deliberate attempt to overwhelm"""
+I098,0,0,3,Values and bands correct
+I099,1,0,2,Invented MB units; max 70 said medium (low)
+I100,1,0,2,"""absence of HTTPS"" (https 0.8 high); iat said low/medium (high)"
+I101,0,0,3,header length high and iat correct
+I102,0,0,1,Empty
+I103,1,1,2,"TTL ""high"" (low); ""attacker attempting to evade detection"""
+I104,0,0,1,Generic definition only
+I105,0,0,2,"tot size 554 correct, a single fact"
+I106,0,0,3,max high and rate low correct
+I107,0,1,2,"496.7 high correct; ""attacker … evade detection"", ""impersonate"""
+I108,1,0,3,"Rate in ""seconds"" (invented unit); bands correct"
+I109,0,0,1,Restates the decision only
+I110,0,1,2,"Bands correct; ""attacker is attempting to exhaust system resources"""
+I111,1,0,2,"header length 32 ""relatively short"" (high)"
+I112,1,0,2,rate 91.66 said high (low)
+I113,1,1,2,"tot sum ""moderate"" (low); ""aimed at gathering information"", ""malicious intent"""
+I114,0,0,3,Values and bands correct
+I115,0,0,1,Restates the decision only
+I116,1,1,1,"Invented spoofed IP; ""attacker … disguise their identity"""
+I117,1,0,1,"799 ""relatively small"" (high); tot sum ""moderate"" (high)"
+I118,0,0,3,Values and bands correct
+I119,0,0,3,tot size 60 and max 60 low correct
+I120,0,0,3,Values and bands correct
+I121,1,0,1,"Invented ""known"" IP; rate said high (low), header length high (medium)"
+I122,0,1,2,"Bands correct; ""attacker was trying to minimize the impact"""
+I123,0,0,3,Values and bands correct
+I124,0,0,2,"udp 0.8 high correct, a single fact"
+I125,1,0,3,"Rate in ""seconds"" (invented unit); bands correct"
+I126,1,0,2,Invented MB units; bands correct
+I127,1,0,2,"""absence of HTTPS"" (https 0.8 high)"
+I128,1,0,1,"tot sum 12880 ""moderate"" (high)"
+I129,0,0,1,Empty
+I130,1,0,2,"""high number of packets"" (medium); ""high average packet size"" (low)"
+I131,0,0,3,Correct copy of the record
+I132,0,0,2,"header length 8 low correct, a single fact"
+I133,0,0,3,Values and bands correct
+I134,0,0,1,"Generic, no value"
+I135,0,0,1,Empty
+I136,0,0,1,Empty
+I137,0,1,2,"High values correct; ""data exfiltration"", ""attacker to exploit vulnerabilities"""
+I138,0,0,1,Empty
+I139,0,0,3,Values and bands correct
+I140,0,1,2,"1044 high correct; ""attacker was attempting to evade detection"""
+I141,0,0,3,Values and bands correct
+I142,0,0,3,Correct copy of the record
+I143,0,0,1,Empty
+I144,0,1,2,"Bands correct; ""DoS attempt by consuming bandwidth"""
+I145,1,0,2,Invented ports TCP 23 / UDP 654
+I146,0,0,3,Values and bands correct
+I147,1,0,2,Invented ports TCP 23 / UDP 654
+I148,1,1,2,"""high number of packets"" (medium), ""UDP 1 out of 100""; ""concerted effort to overwhelm"""
+I149,1,1,1,"High SYN/ICMP (0), sizes ""low"" (medium); ""attackers aim to gather"""
+I150,1,1,1,"TCP/SYN packets (udp=0.99), rate said low (high); ""attacker"""
+I151,1,0,2,Invented units MB and MB/s; bands correct
+I152,0,0,3,"tot sum, max low and iat high correct"
+I153,1,1,1,"60.1 and 70 said larger (low); ""attack relatively successful in achieving its goal"""
+I154,0,0,2,Bands correct but without values
+I155,1,0,1,"799 and 7990 said ""lower"" (high)"
+I156,1,0,2,"Invented TCP port 631; variance ""low"" (medium)"
+I157,0,0,3,Values and bands correct
+I158,1,0,1,tot sum = packet count; rest generic without values
+I159,1,1,1,"TCP SYN (udp=1, syn=0), ""1 out of 100 flows"", std ""low"" (medium); ""automated and coordinated"""
+I160,0,0,3,Values and bands correct
+I161,0,0,3,tot size 60.1 and max 70 low correct
+I162,1,0,2,"""high rate"" (low); ""low ACK flag number"" (high)"
+I163,1,0,1,60.68 said larger than other flows (low)
+I164,0,0,1,Empty
+I165,0,0,3,Correct copy of the record
+I166,1,1,2,"tot sum said high (low), header length said low (high); ""large-scale attack"""
+I167,0,0,3,Values and bands correct
+I168,1,0,2,tot sum = packet count; rate said high (low)
+I169,0,1,2,"rate, SYN and sizes correct; ""attacker is trying to exploit vulnerabilities"", ""malicious intent"""
+I170,1,0,1,"Max said low/medium (high); ""absence of HTTPS"" (0.8 high)"
+I171,0,0,3,Correct copy of the record
+I172,0,0,3,Correct copy of the record
+I173,0,0,3,Correct copy of the record
+I174,0,0,3,Values and bands correct
+I175,1,0,2,"1288 said both ""relatively small"" and high"
+I176,0,0,3,Values and bands correct
+I177,0,0,3,Values and bands correct
+I178,0,0,3,Values and bands correct
+I179,1,1,1,"TCP SYN/ACK (proto 47, tcp=0), TTL low (medium), header medium (low); ""attacker … evade detection"""
+I180,0,0,2,"tot sum 650 low and iat correct; ambiguous ""moderate"" wording"
+I181,0,0,3,Values and bands correct
+I182,1,1,1,"Sizes ""large"" (medium), high FIN (0), ICMP ""low"" (medium); ""aimed at gathering information"""
+I183,0,0,3,Correct copy of the record
+I184,1,1,2,"Max said ""unusually high"" (low); ""deliberate attempt to overwhelm"""
+I185,1,1,1,"tot size ""large"" (medium), header length ""low"" (high), TCP flags ""low""; ""attempting to gather information"""
+I186,1,0,2,"header length 32 ""relatively short"" (high)"
+I187,0,1,2,"Values correct; ""attempting to overwhelm resources"""
+I188,0,0,3,Correct copy of the record
+I189,0,0,3,Values and bands correct
+I190,0,0,2,tot sum 1081 + generic definition
+I191,0,0,3,"tot sum 660, max 66, header length 32, rate 473.8 correct"
+I192,0,0,1,"Empty fragment (""High ICMP Traffic: While."")"
+I193,0,0,3,Values and bands correct
+I194,0,0,3,Values and bands correct
+I195,0,0,3,Values and bands correct
+I196,0,0,3,tot size 60 and max 60 low correct
+I197,0,0,3,Correct copy of the record
+I198,1,1,1,"""TCP (Type 47)"", ""long period""; ""ongoing operations by the attacker"", ""overwhelm infrastructure"""
+I199,0,0,3,Values and bands correct

@@ -1,0 +1,601 @@
+flow_id,test_index,development_and_H1,H2_both_strata,ablation_all_conditions,ablation_texts,human_annotation_sample
+F000,9,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F001,10,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F002,17,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F003,22,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F004,23,True,False,False,,False
+F005,27,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F006,29,True,False,False,,False
+F007,30,True,False,False,,False
+F008,32,True,False,False,,False
+F009,36,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F010,39,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F011,44,True,False,False,,False
+F012,46,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F013,49,True,False,False,,False
+F014,50,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F015,51,True,False,False,,False
+F016,52,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F017,57,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F018,58,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F019,59,True,False,False,,False
+F020,65,True,False,False,,False
+F021,66,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F022,67,True,False,False,,False
+F023,68,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F024,69,True,False,False,,False
+F025,70,True,False,False,,False
+F026,71,True,False,False,,False
+F027,73,True,False,False,,False
+F028,76,True,False,False,,False
+F029,77,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F030,78,True,False,False,,False
+F031,94,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F032,95,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F033,99,True,False,False,,False
+F034,106,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F035,109,True,False,False,,False
+F036,110,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F037,111,True,False,False,,False
+F038,115,True,False,False,,False
+F039,118,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F040,119,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F041,121,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F042,122,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F043,123,True,False,False,,False
+F044,124,True,False,False,,False
+F045,130,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F046,131,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F047,135,True,False,False,,False
+F048,149,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F049,150,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F050,154,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F051,157,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F052,158,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F053,161,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F054,162,True,False,False,,False
+F055,168,True,False,False,,False
+F056,169,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F057,173,True,False,False,,False
+F058,176,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F059,178,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F060,185,True,False,False,,False
+F061,187,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F062,188,True,False,False,,False
+F063,196,True,False,False,,False
+F064,198,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F065,203,True,False,False,,False
+F066,207,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F067,208,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F068,210,True,False,False,,False
+F069,212,True,False,False,,False
+F070,213,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F071,214,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F072,216,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F073,219,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F074,220,True,False,False,,False
+F075,222,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F076,229,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F077,233,True,False,False,,False
+F078,237,True,False,False,,False
+F079,239,True,False,False,,False
+F080,240,True,False,False,,False
+F081,241,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F082,243,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F083,244,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F084,247,True,False,False,,False
+F085,251,True,False,False,,False
+F086,254,True,False,False,,False
+F087,256,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F088,258,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F089,259,True,False,False,,False
+F090,260,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F091,261,True,False,False,,False
+F092,269,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F093,270,True,False,False,,False
+F094,273,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F095,275,True,False,False,,False
+F096,277,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F097,286,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F098,289,True,False,False,,False
+F099,293,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F100,296,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F101,297,True,False,False,,False
+F102,298,True,False,False,,False
+F103,303,True,False,False,,False
+F104,305,True,False,False,,False
+F105,307,True,False,False,,False
+F106,313,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F107,314,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F108,316,True,False,False,,False
+F109,317,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F110,320,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F111,322,True,False,False,,False
+F112,323,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F113,324,True,False,False,,False
+F114,330,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F115,331,True,False,False,,False
+F116,332,True,False,False,,False
+F117,333,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F118,338,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F119,339,True,False,False,,False
+F120,340,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F121,342,True,False,False,,False
+F122,344,True,False,False,,False
+F123,350,True,False,False,,False
+F124,351,True,False,False,,False
+F125,352,True,False,False,,False
+F126,356,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F127,357,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F128,359,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F129,362,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F130,365,True,False,False,,False
+F131,366,True,False,False,,False
+F132,367,True,False,False,,False
+F133,370,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F134,371,True,False,False,,False
+F135,373,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F136,374,True,False,False,,False
+F137,375,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F138,376,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F139,379,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F140,381,True,False,False,,False
+F141,382,True,False,False,,False
+F142,383,True,False,False,,False
+F143,387,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F144,394,True,False,False,,False
+F145,398,True,False,False,,False
+F146,400,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F147,408,True,False,False,,False
+F148,411,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F149,414,True,False,False,,False
+F150,416,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F151,420,True,False,False,,False
+F152,426,True,False,False,,False
+F153,427,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F154,428,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F155,429,True,False,False,,False
+F156,432,True,False,False,,False
+F157,433,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F158,436,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F159,438,True,False,False,,False
+F160,439,True,False,False,,False
+F161,440,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F162,446,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F163,450,True,False,False,,False
+F164,451,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F165,453,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F166,457,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F167,459,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F168,469,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F169,471,True,False,False,,False
+F170,472,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F171,474,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F172,475,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F173,479,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F174,480,True,False,False,,False
+F175,481,True,False,False,,False
+F176,482,True,False,False,,False
+F177,483,True,False,False,,False
+F178,494,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F179,495,True,False,False,,False
+F180,506,True,False,False,,False
+F181,511,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F182,514,True,False,False,,False
+F183,518,True,False,False,,False
+F184,521,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F185,527,True,False,False,,False
+F186,529,True,False,False,,False
+F187,530,True,False,False,,False
+F188,531,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F189,532,True,False,False,,False
+F190,534,True,False,False,,False
+F191,535,True,False,False,,False
+F192,538,True,False,False,,False
+F193,543,True,False,False,,False
+F194,544,True,False,False,,False
+F195,547,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F196,550,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F197,551,True,False,False,,False
+F198,554,True,False,False,,False
+F199,555,True,False,False,,False
+F200,556,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F201,560,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F202,561,True,False,False,,False
+F203,566,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F204,569,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F205,570,True,False,False,,False
+F206,575,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F207,578,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F208,582,True,False,False,,False
+F209,583,True,False,False,,False
+F210,589,True,False,False,,False
+F211,590,True,False,False,,False
+F212,591,True,False,False,,False
+F213,593,True,False,False,,False
+F214,598,True,False,False,,False
+F215,605,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F216,610,True,False,False,,False
+F217,611,True,False,False,,False
+F218,613,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F219,614,True,False,False,,False
+F220,615,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F221,619,True,False,False,,False
+F222,620,True,False,False,,False
+F223,621,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F224,630,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F225,640,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F226,643,True,False,False,,False
+F227,650,True,False,False,,False
+F228,651,True,False,False,,False
+F229,654,True,False,False,,False
+F230,659,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F231,660,True,False,False,,False
+F232,662,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F233,669,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F234,670,True,False,False,,False
+F235,672,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F236,678,True,False,False,,False
+F237,680,True,False,False,,False
+F238,682,True,False,False,,False
+F239,691,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F240,696,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F241,697,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F242,700,True,False,False,,False
+F243,701,True,False,False,,False
+F244,702,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F245,705,True,False,False,,False
+F246,710,True,False,False,,False
+F247,715,True,False,False,,False
+F248,716,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F249,721,True,False,False,,False
+F250,725,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F251,731,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F252,733,True,False,False,,False
+F253,738,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F254,742,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F255,745,True,False,False,,False
+F256,746,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F257,747,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F258,754,True,False,False,,False
+F259,755,True,False,False,,False
+F260,767,True,False,False,,False
+F261,771,True,False,False,,False
+F262,777,True,False,False,,False
+F263,778,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F264,779,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F265,780,True,False,False,,False
+F266,782,True,False,False,,False
+F267,785,True,False,False,,False
+F268,787,True,False,False,,False
+F269,791,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F270,797,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F271,802,True,False,False,,False
+F272,804,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F273,807,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F274,809,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F275,811,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F276,813,True,False,False,,False
+F277,817,True,False,False,,False
+F278,818,True,False,False,,False
+F279,828,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F280,834,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F281,839,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F282,842,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F283,843,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F284,844,True,False,False,,False
+F285,845,True,False,False,,False
+F286,846,True,False,False,,False
+F287,848,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F288,849,True,False,False,,False
+F289,850,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F290,854,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F291,855,True,False,False,,False
+F292,864,True,False,False,,False
+F293,866,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F294,867,True,False,False,,False
+F295,868,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F296,869,True,False,False,,False
+F297,872,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F298,879,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F299,881,True,False,False,,False
+F300,884,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F301,886,True,False,False,,False
+F302,892,True,False,False,,False
+F303,893,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F304,898,True,False,False,,False
+F305,901,True,False,False,,False
+F306,903,True,False,False,,False
+F307,909,True,False,False,,False
+F308,911,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F309,912,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F310,915,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F311,916,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F312,917,True,False,False,,False
+F313,918,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F314,920,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F315,921,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F316,933,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F317,937,True,False,False,,False
+F318,941,True,False,False,,False
+F319,942,True,False,False,,False
+F320,943,True,False,False,,False
+F321,948,True,False,False,,False
+F322,949,True,False,False,,False
+F323,957,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F324,960,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F325,962,True,False,False,,False
+F326,966,True,False,False,,False
+F327,967,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F328,968,True,False,False,,False
+F329,977,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F330,982,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F331,985,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F332,987,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F333,988,True,False,False,,False
+F334,989,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F335,990,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F336,997,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F337,998,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F338,1004,True,False,False,,False
+F339,1007,True,False,False,,False
+F340,1009,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F341,1013,True,False,False,,False
+F342,1017,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F343,1022,True,False,False,,False
+F344,1027,True,False,False,,False
+F345,1029,True,False,False,,False
+F346,1031,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F347,1037,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F348,1041,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F349,1043,True,False,False,,False
+F350,1044,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F351,1046,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F352,1047,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F353,1050,True,False,False,,False
+F354,1056,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F355,1058,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F356,1061,True,False,False,,False
+F357,1063,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F358,1064,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F359,1066,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F360,1068,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F361,1072,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F362,1076,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F363,1077,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F364,1080,True,False,False,,False
+F365,1082,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F366,1083,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F367,1084,True,False,False,,False
+F368,1085,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F369,1087,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F370,1089,True,False,False,,False
+F371,1092,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F372,1095,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F373,1096,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F374,1099,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F375,1100,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F376,1101,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F377,1108,True,False,False,,False
+F378,1110,True,False,False,,False
+F379,1112,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F380,1115,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F381,1116,True,False,False,,False
+F382,1117,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F383,1121,True,False,False,,False
+F384,1123,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F385,1124,True,False,False,,False
+F386,1129,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F387,1134,True,False,False,,False
+F388,1137,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F389,1138,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F390,1143,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F391,1144,True,False,False,,False
+F392,1152,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F393,1154,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F394,1158,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F395,1160,True,False,False,,False
+F396,1163,True,False,False,,False
+F397,1164,True,False,False,,False
+F398,1165,True,False,False,,False
+F399,1169,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F400,1178,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F401,1179,True,False,False,,False
+F402,1184,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F403,1187,True,False,False,,False
+F404,1188,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F405,1189,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F406,1191,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F407,1196,True,False,False,,False
+F408,1199,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F409,1200,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F410,1201,True,False,False,,False
+F411,1204,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F412,1206,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F413,1208,True,False,False,,False
+F414,1211,True,False,False,,False
+F415,1216,True,False,False,,False
+F416,1217,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F417,1221,True,False,False,,False
+F418,1222,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F419,1225,True,False,False,,False
+F420,1226,True,False,False,,False
+F421,1239,True,False,False,,False
+F422,1240,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F423,1241,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F424,1243,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F425,1249,True,False,False,,False
+F426,1251,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F427,1252,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F428,1253,True,False,False,,False
+F429,1255,True,False,False,,False
+F430,1262,True,False,False,,False
+F431,1266,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F432,1268,True,False,False,,False
+F433,1271,True,False,False,,False
+F434,1272,True,False,False,,False
+F435,1273,True,False,False,,False
+F436,1275,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F437,1285,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F438,1286,True,False,False,,False
+F439,1287,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F440,1288,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F441,1289,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F442,1291,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F443,1294,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F444,1298,True,False,False,,False
+F445,1304,True,False,False,,False
+F446,1309,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F447,1310,True,False,False,,False
+F448,1316,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F449,1318,True,False,False,,False
+F450,1319,True,False,False,,False
+F451,1320,True,False,False,,False
+F452,1321,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F453,1323,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F454,1326,True,False,False,,False
+F455,1331,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F456,1336,True,False,False,,False
+F457,1339,True,False,False,,False
+F458,1344,True,False,False,,False
+F459,1347,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F460,1348,True,False,False,,False
+F461,1350,True,False,False,,False
+F462,1353,True,False,False,,False
+F463,1354,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F464,1355,True,False,False,,False
+F465,1357,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F466,1361,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F467,1362,True,False,False,,False
+F468,1363,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F469,1366,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F470,1368,True,False,False,,False
+F471,1370,True,False,False,,False
+F472,1379,True,False,False,,False
+F473,1385,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F474,1387,True,False,False,,False
+F475,1391,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F476,1392,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F477,1395,True,False,False,,False
+F478,1409,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F479,1411,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F480,1412,True,False,False,,False
+F481,1417,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F482,1424,True,False,False,,False
+F483,1425,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F484,1426,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F485,1427,True,False,False,,False
+F486,1435,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F487,1436,True,False,False,,False
+F488,1440,True,False,False,,False
+F489,1442,True,False,False,,False
+F490,1447,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F491,1450,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F492,1452,True,False,False,,False
+F493,1454,True,False,False,,False
+F494,1464,True,False,False,,False
+F495,1469,True,False,False,,False
+F496,1474,True,False,False,,False
+F497,1476,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F498,1479,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F499,1486,True,False,False,,False
+F500,1491,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F501,1493,True,False,False,,False
+F502,1497,True,False,False,,False
+F503,1502,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F504,1505,True,False,False,,False
+F505,1508,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F506,1510,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F507,1511,True,False,False,,False
+F508,1512,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F509,1517,True,False,False,,False
+F510,1520,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F511,1521,True,False,False,,False
+F512,1525,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F513,1531,True,False,False,,False
+F514,1539,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F515,1540,True,False,False,,False
+F516,1544,True,False,False,,False
+F517,1547,True,False,False,,False
+F518,1549,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F519,1550,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F520,1551,True,False,False,,False
+F521,1560,True,False,False,,False
+F522,1561,True,False,False,,False
+F523,1567,True,False,False,,False
+F524,1571,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F525,1573,True,False,False,,False
+F526,1576,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F527,1582,True,False,False,,False
+F528,1583,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F529,1586,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F530,1587,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F531,1591,True,False,False,,False
+F532,1593,True,False,False,,False
+F533,1595,True,False,False,,False
+F534,1596,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F535,1604,True,False,False,,False
+F536,1605,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F537,1606,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F538,1607,True,False,False,,False
+F539,1608,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F540,1611,True,False,False,,False
+F541,1612,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F542,1613,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F543,1619,True,False,False,,False
+F544,1628,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F545,1632,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F546,1633,True,False,False,,False
+F547,1635,True,False,False,,False
+F548,1636,True,False,False,,False
+F549,1637,True,False,False,,False
+F550,1641,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F551,1643,True,False,False,,False
+F552,1646,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F553,1649,True,False,False,,False
+F554,1657,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F555,1659,True,False,False,,False
+F556,1660,True,False,False,,False
+F557,1661,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F558,1662,True,False,False,,False
+F559,1668,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F560,1672,True,False,False,,False
+F561,1676,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F562,1680,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F563,1683,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F564,1690,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F565,1698,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F566,1699,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F567,1706,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F568,1708,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F569,1709,True,False,False,,False
+F570,1715,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F571,1717,True,False,False,,False
+F572,1719,True,False,False,,False
+F573,1723,True,False,False,,False
+F574,1725,True,False,False,,False
+F575,1727,True,False,False,,False
+F576,1729,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F577,1733,True,False,False,,False
+F578,1735,True,False,False,,False
+F579,1736,False,True,True,"generated for the ablation (free + planned, both SLMs)",True
+F580,1739,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F581,1740,True,False,False,,False
+F582,1741,True,False,False,,False
+F583,1745,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F584,1746,True,False,False,,False
+F585,1751,True,False,False,,False
+F586,1754,True,False,False,,False
+F587,1759,True,False,False,,False
+F588,1764,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F589,1765,True,False,False,,False
+F590,1775,True,False,False,,False
+F591,1776,True,False,False,,False
+F592,1777,True,False,False,,False
+F593,1779,True,False,False,,False
+F594,1781,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F595,1786,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F596,1787,True,False,False,,False
+F597,1789,True,False,False,,False
+F598,1792,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
+F599,1795,False,True,True,"generated for the ablation (free + planned, both SLMs)",False
